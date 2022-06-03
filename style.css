@@ -14,17 +14,19 @@ body {
 }
 
 .logo {
-    height: 180px;
+    height: 150px;
     margin-left: -58px;
+    margin-top: -96px;
 }
 
 .logoside {
-    width: 540px;
+    width: 600px;
     height: 300px;
+    margin-left: -78px;
 }
 
 .caption {
-    font-size: 190%;
+    font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -15px;
 }
@@ -33,60 +35,63 @@ body {
     background-color: #fff;
     padding: 20px;
     text-align: center;
-    height: 450px;
-    width: 450px;
-    border-radius: 7px;
-    box-shadow: 1px 2px 20px rgb(212 212 212);
+    height: 480px;
+    width: 520px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px rgb(212 212 212);
+    margin-left: 200px;
 }
 
-#email {
-    height: 40px;
+#username {
+    height: 140px;
     width: 320px;
     margin-bottom: 10px;
 }
 
 #password {
-    height: 40px;
+    height: 140px;
     width: 320px;
     margin-bottom: 15px;
 }
 
-#login {
-    height: 46px;
-    width: 326px;
+#Login {
+    height: 69.98px;
+    width: 300px;
     background-color: #1877f2;
     border: 1px solid #1877f2;
     color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 15px;
     border-radius: 5px;
     font-weight: bold;
-    font-size: large;
+    font-size: 25px;
 }
 
 .whitebox a {
     text-decoration: none;
     color: #1877f2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 #create-account {
-    height: 60px;
+    height: 75px;
     width: 350px;
     color: #fff;
     background-color: #42b72a;
     border: 1px solid #42b72a;
-    margin-top: 20px;
+    margin-top: 40px;
     font-weight: bold;
-    border-radius: 5px;
-    font-size: large;
+    border-radius: 10px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .create-page {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 300;
+    font-size: 19px;
+    margin-left: 200px;
 }
 
 .create-page a {
@@ -105,11 +110,13 @@ body {
 .languages {
     margin-bottom: 10px;
     font-size: medium;
+    margin-left: -200px;
 }
 
 .links {
     margin-bottom: 10px;
     margin-top: 15px;
+    margin-left: -200px;
 }
 
 .links a {
@@ -117,5 +124,5 @@ body {
     color: #8a8d91;
     margin-right: 16px;
     margin-bottom: 30px;
-    font-size: medium;
+    font-size: larger;
 }
